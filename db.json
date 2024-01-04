@@ -1,0 +1,47 @@
+{
+  "user": [
+    {
+      "username": "tanvi",
+      "email": "maniya@gamil.com",
+      "password": "tanvii",
+      "id": 1
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "username": "gdfhyy",
+      "email": "",
+      "password": "346567",
+      "id": 4
+    },
+    {
+      "username": "tanvi",
+      "email": "",
+      "password": "346567",
+      "id": 5
+    },
+    {
+      "username": "tanvi",
+      "email": "tanvi@gamil.com",
+      "password": "tanvi",
+      "id": 6
+    },
+    {
+      "username": "tanvi",
+      "email": "tanvi@gamil.com",
+      "password": "tanvi",
+      "id": 7
+    }
+  ],
+  "product": [
+    {
+      "title": "tanvi",
+      "price": "456534653736567",
+      "id": 1
+    }
+  ]
+}
