@@ -1,8 +1,11 @@
-import { ADDPRODUCTS, GETPRODUCT } from "../ActonType";
+import { ADDPRODUCTS, GETPRODUCT, SINGELPRODUCT,  } from "../ActonType";
 
 let initialState={
     products:[],
+    singelproduct:{},
+    cart:[]
 };
+
 
 export const products = (state=initialState,{type,payload})=>{
     switch (type){
@@ -16,6 +19,17 @@ export const products = (state=initialState,{type,payload})=>{
                     ...state,
                     products:payload,
                 }
+
+                case SINGELPRODUCT:
+                    return{
+                        ...state,
+                        singelproduct:payload
+                    }
+                // case SINGLE_IMG:
+                //     return{
+                //         ...state,
+                //         products:payload,
+                //     }
                 default:
                     return state;
     }

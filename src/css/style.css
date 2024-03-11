@@ -1,0 +1,20 @@
+@import './bootstrap-icons.min.css';
+@import './font.css';
+
+.text-primray{
+    font-family: 'Barlow Semi Condensed';
+}
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px 20px 50px;
+    box-sizing: border-box;
+     background-color: ;
+}

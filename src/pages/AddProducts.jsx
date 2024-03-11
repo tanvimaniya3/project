@@ -22,7 +22,7 @@ function AddProducts() {
     }
 
   return (
-    <div>
+    <div className='mt-5 pt-5 p-5' id='login-img'>
       <form onSubmit={handelSubmit}>
         <input type='text' placeholder='title' value={title} onChange={(e) =>setTitale(e.target.value)}></input>
         <input type='url' placeholder='img' value={img} onChange={(e)=>setImg(e.target.value)}></input>

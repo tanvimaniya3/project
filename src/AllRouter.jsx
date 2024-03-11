@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Singup from './pages/Singup'
 import Singelpage from './pages/Singelpage'
 import AddProducts from './pages/AddProducts'
+import Shop from './pages/Shop'
 
 function AllRouter() {
   return (
@@ -17,8 +18,9 @@ function AllRouter() {
         <Route path='/Cart' element={<Cart/>}></Route>
         <Route path='/addproducts' element={<AddProducts/>}></Route>
         <Route path='/Login' element={<Login/>}></Route>
+        <Route path='/Shop' element={<Shop/>}></Route>
         <Route path='/Singup' element={<Singup/>}></Route>
-        <Route path='/Singelpage' element={<Singelpage/>}></Route>
+        <Route path='/Product/:id' element={<Singelpage/>}></Route>
       </Routes>
     </div>
   )

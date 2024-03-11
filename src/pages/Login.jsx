@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { login } from '../Redux/Action';
+import '../css/nav.css'
 
 function Login() {
 
@@ -29,14 +30,18 @@ function Login() {
  }
 
   return (
-    <>
-     <form onSubmit={handalSubmit}>
-   
-      <input type='Email' placeholder='Enter Your Email' value={email} onChange={(e)=>setEmail(e.target.value)}></input>
-      <input type='Password' placeholder='Enter Your Password' value={password} onChange={(e)=>setPassword(e.target.value)}></input>
-      <button>Submit</button>
-     </form>
-    </>
+
+
+    
+    <div id='login-img' className='p-5'>
+    <form onSubmit={handalSubmit}  className="p-5 form">
+    <h2 className='text-center mb-4'>Login</h2>
+   <input type='Email' placeholder='Enter Your Email'  className='ps-4 pt-1 pb-1 pe-5 i-from' value={email} onChange={(e)=>setEmail(e.target.value)}></input>
+   <input type='Password' placeholder='Enter Your Password'  className='ps-4 pt-1 pb-1 pe-5 mt-4 i-from' value={password} onChange={(e)=>setPassword(e.target.value)}></input><br></br>
+   <button className='mt-4 ps-4 pt-1 pb-1 pe-4 i-fromm border'>Submit</button>
+  </form>
+    </div>
+
   )
 }
  
